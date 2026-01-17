@@ -1,0 +1,30 @@
+# OS / editor
+.DS_Store
+.vscode/
+
+# Java / Gradle
+*.class
+*.log
+*.out
+*.tmp
+.gradle/
+build/
+backend/build/
+backend/.gradle/
+
+# Node / React
+node_modules/
+frontend/node_modules/
+frontend/build/
+
+# Environment / secrets
+.env
+.env.*
+backend/src/main/resources/application-local.properties
+backend/src/main/resources/application-prod.properties
+
+# Docker
+*.pid
+
+# VS Code local history
+.history/
