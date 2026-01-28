@@ -3,6 +3,14 @@
 ## Overview
 This project is a full-stack platform for automating recurring email tasks. Users can schedule emails to be sent daily, weekly, monthly, or as custom follow-ups (e.g., after 3, 7, or 14 days). The backend is built with Spring Boot (Java 21) and stores task schedules and completion history in Firebase Firestore (NoSQL). The React frontend allows users to create, manage, and track their automated email reminders.
 
+### Technologies Used
+
+- Java 21, Spring Boot (backend)
+- React.js (frontend)
+- Firebase Firestore (NoSQL database)
+- Twilio SendGrid (automated email delivery)
+- Docker (containerization)
+
 ---
 
 ## Features
@@ -69,6 +77,7 @@ Frontend (Vercel): https://task-automation-git-main-prerna1001s-projects.vercel.
 - Firebase Firestore (NoSQL)
 - React.js
 - Docker
+- Twilio SendGrid (SendGrid Java SDK for automated email delivery)
 
 ---
 
